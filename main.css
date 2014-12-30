@@ -1,0 +1,160 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/**** HEADER ****/
+.header {
+	height: 900px;
+	text-align: center;
+	background: url('http://goo.gl/JSPdI0');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header .container {
+	position: relative;
+	top: 150px;/*need to adjust this style to see what it does*/
+}
+
+.header h1 {
+	color: #fff;
+	font-size: 100px;
+	line-height: 100px;/*need to adjust this style to see what it does*/
+	margin-top: 0;
+	margin-bottom: 200px;
+}
+
+.header h3 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 80px;
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+.btn_learnMore {
+	background-color: #333;
+	border-radius: 6px;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none
+}
+
+.btn_learnMore:hover {
+	background: #1768fc;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+/*** nav ***/
+.nav {
+	background-color: #1768fc;
+
+	width: 100%;
+}
+
+.nav ul {
+	color: #fff;
+	margin: 0 auto;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.nav li {
+	display: inline;
+	font-size: 18px;
+	list-style: none;
+	padding-left: 40px;
+	
+}
+
+/*** main ***/
+.main .container {
+	margin: 80px auto;
+}
+
+.floatLeft img {
+	float: left;
+	height: 300px;
+	position: relative;
+	width: 300px
+}
+
+.floatRight {
+	float: right;
+	position: relative;
+	width: 600px;
+}
+
+.clear {
+	clear: both;
+}
+
+/** jumbotron **/
+.jumbotron {
+	background: url('http://goo.gl/JGGTmT');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 250px
+}
+
+.jumbotron .container h2 {
+	color: #fff;
+}
+
+.jumbotron p {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.joinUs_btn {
+	background-color: #1768fc; 
+	border-radius: 6px;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px 20px 5px 20px;
+	text-decoration: none;
+}
+
+/** footer **/
+.footer {
+	background: #333;
+	font-size: 14px;
+	height: 60px;
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+
+.footer p {
+	color: #fff;
+	padding-left: 20px;
+}
